@@ -1,8 +1,6 @@
 .DS_Store
 public/templates/
 node_modules/
-dist/
-vendor/
 npm-debug.log
 yarn-error.log
 
