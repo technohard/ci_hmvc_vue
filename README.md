@@ -25,11 +25,16 @@ composer install
 # install npm dependencies
 npm install
 
+#setup proxy for hot reload in webpack config  based on your backend localhost server
+example : 
+your php server running on localhost:8080
+your proxy hot reload running on localhost:3000
+
 # build for production with minification & browser hot reload
 webpack --watch
 
 # open your browser address with xampp running on your pc 
-http://localhost/ci_hmvc_vue
+http://localhost:3000/ci_hmvc_vue
 
 ```
 ## Troubleshoot
