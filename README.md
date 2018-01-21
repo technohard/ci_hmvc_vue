@@ -1,6 +1,6 @@
-# CI HMVC VUE WEBPACK
+# CI HMVC VUE Bootstrap 4 WEBPACK
 
-> Codeigniter HMVC + Vue 2 + Webpack Starter Template
+> Codeigniter 3.1.6 HMVC + Vue 2 + Webpack + Bootstrap 4 Starter Template
 
 ``` bash
 # default database using sqlite
@@ -24,8 +24,8 @@ composer install
 # install npm dependencies
 npm install
 
-# build for production with minification
-webpack
+# build for production with minification & browser hot reload
+webpack --watch
 
 # open your browser address with xampp running on your pc 
 http://localhost/ci_hmvc_vue

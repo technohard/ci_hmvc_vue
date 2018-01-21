@@ -3,7 +3,17 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-require('./../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
+import 'expose-loader?$!expose-loader?window.jQuery!expose-loader?jQuery!jquery'
+import 'bootstrap'
+//import BootstrapVue from 'bootstrap-vue'   
+//uncomment this if you use bootstrap-vue
+
+require('./../node_modules/bootstrap/dist/css/bootstrap.css')
+//require('./../node_modules/bootstrap-vue/dist/bootstrap-vue.css')
+//uncomment this if you use bootstrap-vue
+require('./../node_modules/font-awesome-scss/css/font-awesome.min.scss')
+
+//Vue.use(BootstrapVue);
 
 Vue.config.productionTip = false
 
