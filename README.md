@@ -1,8 +1,9 @@
-# CI HMVC VUE Bootstrap 4 WEBPACK
+# CI HMVC VUE Bootstrap 4 WEBPACK 
 
-> Codeigniter 3.1.6 HMVC + Vue 2 + Webpack + Bootstrap 4 Starter Template
+> Codeigniter 3.1.6 HMVC + Vue 2 + Webpack + Bootstrap 4 Starter Template 
 
 ``` bash
+# version 1.0.5
 # default database using sqlite
 
 ```
